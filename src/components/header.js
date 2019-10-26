@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Sitemobilemenu from './wt/sitemobilemenu'
+//import Sitemobilemenu from './wt/sitemobilemenu'
 import Sitenavbarheader from './wt/sitenavbarheader'
 
 
@@ -12,7 +12,7 @@ import '../css/bootstrap.min.css'
 
 const Header = () => (
     <div>
-        <Sitemobilemenu />
+        
         <Sitenavbarheader />
     </div>
 )

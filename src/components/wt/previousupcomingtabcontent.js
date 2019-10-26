@@ -1,8 +1,17 @@
 import React from "react";
-import previousmatchesall from "./previousmatchesall";
-import upcomingmatchesall from "./upcomingmatchesall";
+import Previousmatchesall from "./previousmatchesall";
+import Upcomingmatchesall from "./upcomingmatchesall";
 
-class previousupcomingtabcontent extends React.Component {
+
+import '../../css/style.css'
+import '../../css/bootstrap-grid.css'
+//import '../../css/bootstrap-reboot.css'
+import '../../css/bootstrap.min.css'
+import '../../css/jquery-ui.css'
+
+
+
+class Previousupcomingtabcontent extends React.Component {
   render() {
     return (
       <div className="tab-content" id="pills-tabContent">
@@ -12,7 +21,7 @@ class previousupcomingtabcontent extends React.Component {
           role="tabpanel"
           aria-labelledby="pills-home-tab"
         >
-          <previousmatchesall></previousmatchesall>
+          <Previousmatchesall />
         </div>
         {}
         <div
@@ -22,7 +31,7 @@ class previousupcomingtabcontent extends React.Component {
           aria-labelledby="pills-profile-tab"
         >
           <div className="row align-items-center">
-            <upcomingmatchesall></upcomingmatchesall>
+            <Upcomingmatchesall />
           </div>
         </div>
         <div
@@ -189,4 +198,4 @@ class previousupcomingtabcontent extends React.Component {
   }
 }
 
-export default previousupcomingtabcontent;
+export default Previousupcomingtabcontent;

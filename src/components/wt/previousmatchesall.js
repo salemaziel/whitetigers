@@ -1,6 +1,14 @@
 import React from "react";
 
-class previousmatchesall extends React.Component {
+
+import '../../css/style.css'
+import '../../css/bootstrap-grid.css'
+import '../../css/bootstrap-reboot.css'
+import '../../css/bootstrap.min.css'
+//import '../../scss/style.scss'
+import '../../css/jquery-ui.css'
+
+class Previousmatchesall extends React.Component {
   render() {
     return (
       <div className="row align-items-center">
@@ -74,4 +82,4 @@ class previousmatchesall extends React.Component {
   }
 }
 
-export default previousmatchesall;
+export default Previousmatchesall;

@@ -1,5 +1,20 @@
 import React from "react";
 import Socialbuttons from "./socialbuttons";
+import Sitemobilemenu from './sitemobilemenu'
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
+} from 'reactstrap';
+import { Link } from 'gatsby'
 
 import '../../css/style.css'
 import '../../css/bootstrap-grid.css'
@@ -12,6 +27,7 @@ import Upsllogo from '../../images/upsl-logo.png'
 class Sitenavbarheader extends React.Component {
   render() {
     return (
+      <div className="flex-auto">
       <header className="site-navbar absolute transparent" role="banner">
         <div className="py-3">
           <div className="container">
@@ -49,7 +65,8 @@ class Sitenavbarheader extends React.Component {
         >
           <div className="container position-relative">
             <div className="site-logo">
-              <a href="index.html">
+
+              <a href="/">
                 <img src={Wtlogo} alt />
               </a>
             </div>
@@ -63,10 +80,10 @@ class Sitenavbarheader extends React.Component {
             </div>
             <ul className="site-menu js-clone-nav d-none d-md-block">
               <li className="active">
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
-              <li className="has-children">
-                <a href="news.html">News</a>
+              {/**<li className="has-children">
+                <a href="#">News</a>
                 <ul className="dropdown arrow-top">
                   <li>
                     <a href="#">Menu One</a>
@@ -78,23 +95,24 @@ class Sitenavbarheader extends React.Component {
                     <a href="#">Menu Three</a>
                   </li>
                 </ul>
+    </li>**/}
+              <li>
+                <a href="/matches">Matches</a>
               </li>
               <li>
-                <a href="matches.html">Matches</a>
+                <a href="/team">Team</a>
               </li>
               <li>
-                <a href="team.html">Team</a>
+                <a href="/about">About</a>
               </li>
               <li>
-                <a href="about.html">About</a>
-              </li>
-              <li>
-                <a href="contact.html">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
           </div>
         </nav>
       </header>
+      </div>
     );
   }
 }

@@ -7,9 +7,9 @@ import Sdifc from '../../images/sd-international-fc.png'
 
 import '../../css/style.css'
 import '../../css/bootstrap-grid.css'
-import '../../css/bootstrap-reboot.css'
+//import '../../css/bootstrap-reboot.css'
 import '../../css/bootstrap.min.css'
-
+import '../../css/jquery-ui.css'
 
 class Upcomingmatchbgpicturetop extends React.Component {
   render() {

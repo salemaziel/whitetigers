@@ -11,7 +11,7 @@ import '../../css/bootstrap.min.css'
 import '../../css/aos.css'
 //import '../../css/owl.theme.default.min.css'
 //import '../../css/owl.carousel.min.css'
-
+import '../../css/jquery-ui.css'
 
 class Photoslidertop extends React.Component {
   render() {

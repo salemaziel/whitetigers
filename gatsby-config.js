@@ -1,15 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `White Tigers San Diego Futbol Club`,
+    author: `Salem`,
+    description: `Official Website for SD White Tigers`,
+    siteUrl: `https://`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `whitetigerssd`,
     },
   },
   plugins: [
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -4,6 +4,8 @@ import '../../css/style.css'
 import '../../css/bootstrap-grid.css'
 import '../../css/bootstrap-reboot.css'
 import '../../css/bootstrap.min.css'
+import '../../css/jquery-ui.css'
+
 
 class Featuredblockcenter extends React.Component {
   render() {

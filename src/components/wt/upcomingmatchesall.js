@@ -1,16 +1,75 @@
 import React from "react";
 
-class upcomingmatchesall extends React.Component {
+import Wtlogo from '../../images/whitetigerslogo-139x150.png'
+
+import '../../css/style.css'
+import '../../css/bootstrap-grid.css'
+import '../../css/bootstrap-reboot.css'
+import '../../css/bootstrap.min.css'
+
+import Upsl from '../../images/upsl-logo.png'
+
+class Upcomingmatchesall extends React.Component {
   render() {
     return (
-      <div className="col-md-12">
+      <>
+      <div className="bgheromatches">
+
+        <div className="matchestop">
+          <div className="col-md-12">
+    
+            <h1
+              style={{
+                textAlign: 'center',
+                fontSize: '3rem',
+                fontWeight: 'bold',
+                textTransform: 'uppercase',
+                margin: '2rem',
+                padding: '2rem',
+              }}
+            >
+              Upcoming Matches
+            </h1>
+        </div>
+        <div className="row">
+          <div className="col-lg-4">
+            <h2 
+            style={{
+              textAlign:'center',
+              fontSize: '2rem',
+              fontWeight: '900',
+            }}
+            >Home</h2>
+            </div>
+            <div className="col-lg-4">
+            <h2 
+            style={{
+              textAlign:'center',
+              fontSize: '2rem',
+              fontWeight: '900',
+            }}
+            >vs</h2>
+            </div>
+            <div className="col-lg-4">
+            <h2 
+            style={{
+              textAlign:'center',
+              fontSize: '2rem',
+              fontWeight: '900',
+            }}
+            >Away</h2>
+          </div>
+          </div>
+          </div>
+
+        <div className="container">
         <div className="row bg-white align-items-center ml-0 mr-0 py-4 match-entry">
           <div className="col-md-4 col-lg-4 mb-4 mb-lg-0">
             <div className="text-center text-lg-left">
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
                   <img
-                    src="images/whitetigerslogo-139x150.png"
+                    src={Wtlogo}
                     alt="Image"
                     className="img-fluid"
                   />
@@ -96,7 +155,7 @@ class upcomingmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
-                    src="images/whitetigerslogo-139x150.png"
+                    src={Wtlogo}
                     alt="Image"
                     className="img-fluid"
                   />
@@ -118,7 +177,7 @@ class upcomingmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
                   <img
-                    src="images/whitetigerslogo-139x150.png"
+                    src={Wtlogo}
                     alt="Image"
                     className="img-fluid"
                   />
@@ -206,7 +265,7 @@ class upcomingmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
-                    src="images/whitetigerslogo-139x150.png"
+                    src={Wtlogo}
                     alt="Image"
                     className="img-fluid"
                   />
@@ -229,7 +288,7 @@ class upcomingmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
                   <img
-                    src="images/whitetigerslogo-139x150.png"
+                    src={Wtlogo}
                     alt="Image"
                     className="img-fluid"
                   />
@@ -318,7 +377,7 @@ class upcomingmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
-                    src="images/whitetigerslogo-139x150.png"
+                    src={Wtlogo}
                     alt="Image"
                     className="img-fluid"
                   />
@@ -373,7 +432,7 @@ class upcomingmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
-                    src="images/whitetigerslogo-139x150.png"
+                    src={Wtlogo}
                     alt="Image"
                     className="img-fluid"
                   />
@@ -396,7 +455,7 @@ class upcomingmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
                   <img
-                    src="images/whitetigerslogo-139x150.png"
+                    src={Wtlogo}
                     alt="Image"
                     className="img-fluid"
                   />
@@ -451,7 +510,7 @@ class upcomingmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
                   <img
-                    src="images/whitetigerslogo-139x150.png"
+                    src={Wtlogo}
                     alt="Image"
                     className="img-fluid"
                   />
@@ -508,7 +567,7 @@ class upcomingmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
                   <img
-                    src="images/whitetigerslogo-139x150.png"
+                    src={Wtlogo}
                     alt="Image"
                     className="img-fluid"
                   />
@@ -595,7 +654,7 @@ class upcomingmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
-                    src="images/whitetigerslogo-139x150.png"
+                    src={Wtlogo}
                     alt="Image"
                     className="img-fluid"
                   />
@@ -612,8 +671,10 @@ class upcomingmatchesall extends React.Component {
         </div>
         {}
       </div>
+      </div>
+      </>
     );
   }
 }
 
-export default upcomingmatchesall;
+export default Upcomingmatchesall

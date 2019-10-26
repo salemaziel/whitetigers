@@ -119,6 +119,7 @@ a:hover {
 
 .site-section {
   padding: 2.5em 0;
+  margin-bottom: 8em;
 }
 
 @media (min-width: 768px) {
@@ -288,21 +289,22 @@ a:hover {
 
 .site-navbar .site-navigation .site-menu {
   margin-bottom: 0;
+  padding-top: 1rem;
 }
 
-.site-navbar .site-navigation .site-menu .active > a {
+/**.site-navbar .site-navigation .site-menu .active a {
   color: #f23a2e;
-}
+}**/
 
 .site-navbar .site-navigation .site-menu a {
   text-decoration: none !important;
-  font-size: 15px;
+  font-size: 18px;
   display: inline-block;
 }
 
 .site-navbar .site-navigation .site-menu > li {
   display: inline-block;
-  padding: 10px 5px;
+  padding: 10px 10px;
 }
 
 .site-navbar .site-navigation .site-menu > li > a {
@@ -310,7 +312,7 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: .05em;
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   text-decoration: none !important;
 }
 
@@ -704,8 +706,9 @@ a:hover {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  overflow: hidden;
+  overflow: visible;
   z-index: 1;
+
 }
 
 .feature-blocks-1 .feature-block-1.bg {
@@ -728,6 +731,8 @@ a:hover {
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out;
+  padding: 2em;
+  margin: 2em;
 }
 
 .feature-blocks-1 .feature-block-1:before {
@@ -819,12 +824,16 @@ a:hover {
   -o-transition: .2s all ease-in-out;
   transition: .2s all ease-in-out;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 2rem;
 }
 
 .match-entry .small {
   color: #ccc;
   font-weight: normal;
   letter-spacing: .15em;
+  border-radius: 15px;
 }
 
 .match-entry:hover {
@@ -909,6 +918,24 @@ a:hover {
   padding: 100px;
   background-image: url(../images/about_1.1.jpg);
   background-size: cover;
+}
+
+.bgheromatches {
+  position: relative;
+  z-index: 1;
+  padding: 100px;
+  background-image: url(../images/bgmatches.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.matchestop {
+  background-color: white;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  padding: 0px 0px 40px 0px;
 }
 
 .block-13 .owl-nav, .slide-one-item .owl-nav {
@@ -1196,3 +1223,15 @@ a:hover {
   color: #fff;
   border: 1px solid transparent;
 }
+
+.tab-content .tab-pane {
+    display: none;
+}
+
+.tab-content .tab-pane:active{
+    display: block;
+  }
+
+.dropdown-menu.show {
+    display: block;
+  }
