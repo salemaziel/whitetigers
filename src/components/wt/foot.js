@@ -1,5 +1,5 @@
 import React from "react";
-import Footerquickmenu from "./footerquickmenu";
+//import Footerquickmenu from "./footerquickmenu";
 import Footersocialbuttonsfollow from "./footersocialbuttonsfollow";
 import Footervideosubscribe from "./footervideosubscribe";
 
@@ -20,13 +20,11 @@ class Foot extends React.Component {
               <div className="mb-5">
                 <h3 className="footer-heading mb-4">About WhiteTigersFC</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Saepe pariatur reprehenderit vero atque, consequatur id
-                  ratione, et non dignissimos culpa? Ut veritatis, quos illum
-                  totam quis blanditiis, minima minus odio!
+                Founded in 2019, White Tigers Futbol Club is an American Soccer club currently based in Escondido, California. 
+                {/**White Tigers FC play in Division 1 of the Southern California UPSL Western Conference, and can participate in the qualifying rounds for the Lamar Hunt U.S. Open Cup through their affiliation and membership with the UPSL, the U.S. Soccer Federation (USSF) and the United States Adult Soccer Association (USASA).**/}
                 </p>
               </div>
-              <div className="mb-5">
+              {/**<div className="mb-5">
                 <h3 className="footer-heading mb-4">Recent Blog</h3>
                 <div className="block-25">
                   <ul className="list-unstyled">
@@ -80,13 +78,13 @@ class Foot extends React.Component {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div>**/}
             </div>
             <div className="col-lg-4 mb-5 mb-lg-0">
-              <Footerquickmenu />
-              <Footersocialbuttonsfollow />
+              {/**<Footerquickmenu />**/}
             </div>
-            <Footervideosubscribe />
+            {/**<Footervideosubscribe />**/}
+            <Footersocialbuttonsfollow />
           </div>
         </div>
       </footer>

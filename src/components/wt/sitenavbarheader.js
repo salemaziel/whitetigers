@@ -9,6 +9,8 @@ import Socialbuttons from "./socialbuttons";
 
 import '../../css/navbar.css'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 class Sitenavbarheader extends React.Component {
   render() {
@@ -17,7 +19,9 @@ class Sitenavbarheader extends React.Component {
       <header className="site-navbar absolute transparent" role="banner">
           <div className="container">
             <div className="row align-items-center">
+            <div className="col-6 col-md-3">
               <Socialbuttons />
+            </div>  
               <div className="col-6 col-md-9 text-right">
                   <div className="d-inline-block">
                   <a
@@ -81,8 +85,10 @@ class Sitenavbarheader extends React.Component {
                 </ul>
             </li>**/}
               <li className="has-children">
-                <a href="#">Matches</a>
-                <ul className="dropdown arrow-top">
+                <a href="#">Matches
+                <FontAwesomeIcon icon={faAngleDown} style={{ marginLeft: 5 }} />
+                </a>
+                <ul className="dropdown">
                   <li>
                     <a href="/previousmatches">Previous Matches</a>
                   </li>

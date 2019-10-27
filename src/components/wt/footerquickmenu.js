@@ -16,16 +16,16 @@ class Footerquickmenu extends React.Component {
         <div className="col-md-6 col-lg-6">
           <ul className="list-unstyled">
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">Matches</a>
+              <a href="/matches">Matches</a>
             </li>
             <li>
-              <a href="#">News</a>
+              <a href="/team">Team</a>
             </li>
             <li>
-              <a href="#">Team</a>
+              <a href="/about">About</a>
             </li>
           </ul>
         </div>
