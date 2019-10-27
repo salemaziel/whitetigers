@@ -9,6 +9,9 @@ import '../css/bootstrap.min.css'
 
 const Standings = (props) => {
     return (
+        <div style={{
+            marginBottom: '4rem',
+        }}>
     <div className="container">
         <h3 style={{
                 fontSize: '45px',
@@ -100,6 +103,7 @@ const Standings = (props) => {
           </tr>
         </tbody>
       </Table>
+      </div>
       </div>
     );
   }

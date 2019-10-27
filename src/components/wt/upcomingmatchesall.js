@@ -21,10 +21,9 @@ class Upcomingmatchesall extends React.Component {
             <h1
               style={{
                 textAlign: 'center',
-                fontSize: '3rem',
+                fontSize: '32px',
                 fontWeight: 'bold',
                 textTransform: 'uppercase',
-                margin: '2rem',
                 padding: '2rem',
               }}
             >

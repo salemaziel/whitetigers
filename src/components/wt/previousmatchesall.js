@@ -22,11 +22,10 @@ class Previousmatchesall extends React.Component {
         <h1
               style={{
                 textAlign: 'center',
-                fontSize: '3rem',
+                fontSize: '32px',
                 fontWeight: 'bold',
                 textTransform: 'uppercase',
-                margin: '2rem',
-                padding: '2rem',
+
               }}
             >
               Previous Matches
@@ -37,7 +36,7 @@ class Previousmatchesall extends React.Component {
             <h2 
             style={{
               textAlign:'center',
-              fontSize: '2rem',
+              fontSize: '28px',
               fontWeight: '900',
             }}
             >Home</h2>
@@ -46,7 +45,7 @@ class Previousmatchesall extends React.Component {
             <h2 
             style={{
               textAlign:'center',
-              fontSize: '2rem',
+              fontSize: '28px',
               fontWeight: '900',
             }}
             >vs</h2>
@@ -55,7 +54,7 @@ class Previousmatchesall extends React.Component {
             <h2 
             style={{
               textAlign:'center',
-              fontSize: '2rem',
+              fontSize: '28px',
               fontWeight: '900',
             }}
             >Away</h2>

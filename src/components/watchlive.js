@@ -21,9 +21,12 @@ class Watchlive extends React.Component {
                         Watch Live
                     </h3>
                        <div style={{
-                           paddingLeft: '2em',
+                           display: 'flex',
+                           justifyContent: 'center',
+                           alignItems: 'center',
+                           marginBottom: '6rem',
                        }}>
-                    <iframe src="https://mycujoo.tv/embed/729?id=82317&shareSource=EM_EM" min-width="468px" allowfullscreen></iframe>
+                    <iframe src="https://mycujoo.tv/embed/729?id=82317&shareSource=EM_EM" width="560px" height="315px" frameborder="0" overflow="hidden" allowfullscreen></iframe>
                     </div>
 
                 </div>    

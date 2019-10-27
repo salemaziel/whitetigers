@@ -7,6 +7,7 @@ import Standings from '../components/standings'
 import Previousmatch from '../components/wt/previousmatch'
 import Watchlive from '../components/watchlive'
 
+
 const Index = () => (
     <Layout>
         <Photoslidertop />

@@ -7,6 +7,7 @@ import Upsllogo from '../../images/upsl-logo.png';
 import Wtlogo from '../../images/whitetigerslogo-139x150.png';
 import Socialbuttons from "./socialbuttons";
 
+import '../../css/navbar.css'
 
 
 class Sitenavbarheader extends React.Component {
@@ -14,32 +15,26 @@ class Sitenavbarheader extends React.Component {
     return (
       <div className="flex-auto">
       <header className="site-navbar absolute transparent" role="banner">
-        <div className="py-3">
           <div className="container">
             <div className="row align-items-center">
               <Socialbuttons />
               <div className="col-6 col-md-9 text-right">
-                <div className="d-inline-block">
+                  <div className="d-inline-block">
                   <a
-                    href="#"
-                    className="text-secondary p-2 d-flex align-items-center"
-                  >
-                    {/**<span className="d-none d-md-block">**/}
-                      
-                      WESTERN CONFERENCE - SO CAL SOUTH - DIVISION I
-                    {/**</span>**/}
-                  </a>
-                </div>
-                <div className="d-inline-block">
-                  <a
+                  style={{
+                    display: 'flex',
+                    justifyContent: 'bottom',
+                    alignItems: 'bottom',
+                  }}
                     href="https://upsl.com"
                     className="text-secondary p-2 d-flex align-items-center"
                   >
                     {/**<span className="d-none d-md-block">**/}
                       <img src={Upsllogo} alt="" 
                       style={{
-                        display: 'inline',
-                        inlineSize: 'auto',
+                        display: 'flex',
+                        justifyContent: 'bottom',
+                        alignItems: 'bottom',
                       }} />
                     {/**</span>**/}
                   </a>
@@ -47,7 +42,7 @@ class Sitenavbarheader extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+
         <nav
           className="site-navigation position-relative text-right bg-black text-md-right"
           role="navigation"

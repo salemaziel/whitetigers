@@ -15,6 +15,7 @@ import '../../css/bootstrap-grid.css'
 import '../../css/bootstrap-reboot.css'
 import '../../css/bootstrap.min.css'
 import '../../css/magnific-popup.css'
+import '../../css/navbar.css'
 
 //import Wtlogo from '../../images/whitetigerslogo-139x150.png'
 

@@ -920,11 +920,23 @@ a:hover {
   background-image: url(../images/about_1.1.jpg);
   background-size: cover;
 }
+@media (max-width:991px){
+  .bghero{
+    padding:75px 0px;
+  }
+}
+  @media (max-width:767px){
+    .bghero{
+      padding:50px 0px;
+    }
+  }
+
+
 
 .bgheromatches {
   position: relative;
   z-index: 1;
-  padding: 100px;
+  padding: 50px;
   background-image: url(../images/bgmatches.jpg);
   background-size: cover;
   background-position: center;
@@ -1236,3 +1248,20 @@ a:hover {
 .dropdown-menu.show {
     display: block;
   }
+
+.container-fluid {
+    max-width: 1920px;
+    width: 100%;
+}
+  
+.container {
+    max-width: 1240px;
+    width: 100%;
+}
+  
+@media (max-width:1280px) {
+  .container {
+      max-width: 100%;
+      width: 100%;
+    }
+}
