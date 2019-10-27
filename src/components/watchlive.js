@@ -33,7 +33,7 @@ class Watchlive extends React.Component {
                            alignItems: 'center',
                            marginBottom: '6rem',
                        }}>
-                    <iframe src="https://mycujoo.tv/embed/729?id=82317&shareSource=EM_EM" width="560px" height="315px" frameborder="0" overflow="hidden" allowfullscreen></iframe>
+                    <iframe src="https://mycujoo.tv/embed/2471?id=78792&shareSource=EM_EM" width="560px" height="315px" frameborder="0" overflow="hidden" allowfullscreen></iframe>
                     </div>
                     </div>
                 </div>    

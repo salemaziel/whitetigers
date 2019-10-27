@@ -3,7 +3,7 @@ module.exports = {
     title: `White Tigers San Diego Futbol Club`,
     author: `Salem`,
     description: `Official Website for SD White Tigers`,
-    siteUrl: `https://`,
+    siteUrl: `https://white-tigers.netlify.com`,
     social: {
       twitter: `whitetigerssd`,
     },
@@ -59,13 +59,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `White Tigers FC San Diego`,
+        short_name: `WhiteTigers`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#3A5B76`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `src/images/whitetigerslogo-139x150.png`,
       },
     },
     `gatsby-plugin-offline`,

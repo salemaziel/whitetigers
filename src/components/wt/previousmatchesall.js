@@ -9,6 +9,11 @@ import '../../css/bootstrap.min.css'
 import '../../css/jquery-ui.css'
 
 import Wtlogo from '../../images/whitetigerslogo-139x150.png'
+import Sdifc from '../../images/sd-international-fc.png'
+import Sdppa from '../../images/sd-pro-premier-academy-139x150.png'
+import Santosfc from '../../images/santosfc.png'
+import Rebels from '../../images/rebels-sc.png'
+import Pscsd from '../../images/psc-sandiego.png'
 
 
 class Previousmatchesall extends React.Component {
@@ -25,7 +30,7 @@ class Previousmatchesall extends React.Component {
                 fontSize: '32px',
                 fontWeight: 'bold',
                 textTransform: 'uppercase',
-
+                padding: '2rem',
               }}
             >
               Previous Matches
@@ -69,7 +74,7 @@ class Previousmatchesall extends React.Component {
                 <div className="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
                   <img
                     src={Wtlogo}
-                    alt="Image"
+                    alt=""
                     className="img-fluid"
                   />
                 </div>
@@ -100,8 +105,8 @@ class Previousmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
-                    src="images/santosfc.png"
-                    alt="Image"
+                    src={Santosfc}
+                    alt=""
                     className="img-fluid"
                   />
                 </div>
@@ -123,8 +128,8 @@ class Previousmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
                   <img
-                    src="images/psc-sandiego.png"
-                    alt="Image"
+                    src={Pscsd}
+                    alt=""
                     className="img-fluid"
                   />
                 </div>
@@ -156,7 +161,7 @@ class Previousmatchesall extends React.Component {
                 <div className="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
                     src={Wtlogo}
-                    alt="Image"
+                    alt=""
                     className="img-fluid"
                   />
                 </div>
@@ -179,7 +184,7 @@ class Previousmatchesall extends React.Component {
                 <div className="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
                   <img
                     src={Wtlogo}
-                    alt="Image"
+                    alt=""
                     className="img-fluid"
                   />
                 </div>
@@ -210,8 +215,8 @@ class Previousmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
-                    src="images/sd-pro-premier-academy.png"
-                    alt="Image"
+                    src={Sdppa}
+                    alt=""
                     className="img-fluid"
                   />
                 </div>
@@ -235,8 +240,8 @@ class Previousmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
                   <img
-                    src="images/rebels-sc.png"
-                    alt="Image"
+                    src={Rebels}
+                    alt=""
                     className="img-fluid"
                   />
                 </div>
@@ -268,7 +273,7 @@ class Previousmatchesall extends React.Component {
                 <div className="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
                     src={Wtlogo}
-                    alt="Image"
+                    alt=""
                     className="img-fluid"
                   />
                 </div>
@@ -291,7 +296,7 @@ class Previousmatchesall extends React.Component {
                 <div className="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
                   <img
                     src={Wtlogo}
-                    alt="Image"
+                    alt=""
                     className="img-fluid"
                   />
                 </div>
@@ -322,8 +327,8 @@ class Previousmatchesall extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
-                    src="images/sd-international-fc.png"
-                    alt="Image"
+                    src={Sdifc}
+                    alt=""
                     className="img-fluid"
                   />
                 </div>
@@ -346,8 +351,8 @@ class Previousmatchesall extends React.Component {
                 <div className="d-block d-lg-flex align-items-center">
                   <div className="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
                     <img
-                      src="images/sd-pro-premier-academy.png"
-                      alt="Image"
+                      src={Sdppa}
+                      alt=""
                       className="img-fluid"
                     />
                   </div>
@@ -384,7 +389,7 @@ class Previousmatchesall extends React.Component {
                   <div className="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
                     <img
                       src="images/whitetigerslogo-139x150.png"
-                      alt="Image"
+                      alt=""
                       className="img-fluid"
                     />
                   </div>
