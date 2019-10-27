@@ -9,6 +9,11 @@ import '../../css/bootstrap.min.css'
 import '../../css/jquery-ui.css'
 
 import Wtlogo from '../../images/whitetigerslogo-139x150.png'
+import Sdifc from '../../images/sd-international-fc.png'
+import Sdppa from '../../images/sd-pro-premier-academy-139x150.png'
+import Santosfc from '../../images/santosfc.png'
+import Rebels from '../../images/rebels-sc.png'
+import Pscsd from '../../images/psc-sandiego.png'
 
 
 class Previousmatch extends React.Component {
@@ -30,6 +35,7 @@ class Previousmatch extends React.Component {
 
         <div className="row bg-white align-items-center ml-0 mr-0 py-4 match-entry">
           <div className="col-md-4 col-lg-4 mb-4 mb-lg-0">
+              <div className="winner">
             <div className="text-center text-lg-left">
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
@@ -48,16 +54,17 @@ class Previousmatch extends React.Component {
               </div>
             </div>
           </div>
+          </div>
           <div className="col-md-4 col-lg-4 text-center mb-4 mb-lg-0">
             <div className="d-inline-block">
               <h6 className="h6 mb-0 text-black text-center text-uppercase">
                 Oct 20 / 4:00 PM
                 <br />
-                Monte Vista High School
+                Ramona High School
               </h6>
               <br />
               <div className="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded">
-                <span className="h5">0:0</span>
+                <span className="h5">4:1</span>
               </div>
             </div>
           </div>
@@ -66,7 +73,7 @@ class Previousmatch extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
-                    src="images/santosfc.png"
+                    src={Santosfc}
                     alt="Image"
                     className="img-fluid"
                   />

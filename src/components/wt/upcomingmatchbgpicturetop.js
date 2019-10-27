@@ -2,6 +2,10 @@ import React from "react";
 
 import Wtlogo from '../../images/whitetigerslogo-139x150.png'
 import Sdifc from '../../images/sd-international-fc.png'
+import Sdppa from '../../images/sd-pro-premier-academy-139x150.png'
+import Santosfc from '../../images/santosfc.png'
+import Rebels from '../../images/rebels-sc.png'
+import Pscsd from '../../images/psc-sandiego.png'
 
 
 import '../../css/style.css'
@@ -22,13 +26,13 @@ class Upcomingmatchbgpicturetop extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image mx-auto mb-3 mb-lg-0 mr-lg-3">
                   <img
-                    src={Wtlogo}
+                    src={Sdppa}
                     alt="Image"
                     className="img-fluid"
                   />
                 </div>
                 <div className="text">
-                  <h3 className="h5 mb-0 text-black">White Tigers FC</h3>
+                  <h3 className="h5 mb-0 text-black">SD Premier Pros Academy</h3>
                   <span className="text-uppercase small country text-black">
                     San Diego
                   </span>
@@ -51,9 +55,9 @@ class Upcomingmatchbgpicturetop extends React.Component {
               </div>
               <p className="mb-0">
                 <small className="text-uppercase text-black font-weight-bold">
-                  15 September / 4:00 PM PST
+                  26 October / 7:00 PM PST
                   <br />
-                  Ramona High School
+                  Morse High School
                 </small>
               </p>
             </div>
@@ -63,13 +67,13 @@ class Upcomingmatchbgpicturetop extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image mx-auto ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
-                    src={Sdifc}
+                    src={Wtlogo}
                     alt="Image"
                     className="img-fluid"
                   />
                 </div>
                 <div className="text order-1">
-                  <h3 className="h5 mb-0 text-black">SD Internacional FC</h3>
+                  <h3 className="h5 mb-0 text-black">White Tigers FC</h3>
                   <span className="text-uppercase small country text-black">
                     San Diego
                   </span>

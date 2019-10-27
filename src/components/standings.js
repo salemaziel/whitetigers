@@ -47,7 +47,7 @@ const Standings = (props) => {
                 textTransform: 'uppercase',
                 fontWeight: 'bold',
             }}
-            >San Diego White Tigers</td>
+            >San Diego White Tigers FC</td>
             <td>6</td>
             <td>0</td>
             <td>0</td>

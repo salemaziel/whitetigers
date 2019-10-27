@@ -1265,3 +1265,11 @@ a:hover {
       width: 100%;
     }
 }
+
+.winner {
+  border-color: #0226ffab;
+  border-width: 5px;
+  border-radius: 15px;
+  background: #d7dcfaab;
+  padding: initial;
+}

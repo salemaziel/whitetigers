@@ -12,10 +12,10 @@ const Index = () => (
     <Layout>
         <Photoslidertop />
         <Floatingfeaturedblocks />
-        <Watchlive />
         <Standings />
         <Upcomingmatchbgpicturetop />
         <Previousmatch />
+        <Watchlive />
     </Layout>
 )
 

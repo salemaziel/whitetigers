@@ -2,6 +2,7 @@ import React from "react";
 
 import Wtlogo from '../../images/whitetigerslogo-139x150.png'
 import Sdifc from '../../images/sd-international-fc.png'
+import Sdppa from '../../images/sd-pro-premier-academy-139x150.png'
 
 import '../../css/style.css'
 import '../../css/bootstrap-grid.css'
@@ -30,12 +31,12 @@ class Nextmatch extends React.Component {
           </span>
           <div className="d-block d-md-inline-block">
             <img
-              src={Sdifc}
+              src={Sdppa}
               alt="Image"
               className="mr-3 image"
             />
             <span className="d-block d-md-inline-block ml-0 ml-md-3 ml-lg-0">
-              SD Internacional FC
+              SD Premier Pros Academy
             </span>
           </div>
         </div>
