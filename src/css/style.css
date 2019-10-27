@@ -119,7 +119,7 @@ a:hover {
 
 .site-section {
   padding: 2.5em 0;
-  margin-bottom: 8em;
+  margin-bottom: 4em;
 }
 
 @media (min-width: 768px) {
@@ -200,7 +200,8 @@ a:hover {
   background: #000;
   -webkit-box-shadow: 20px 0 0 #000, -20px 0 0 #000;
   box-shadow: 20px 0 0 #000, -20px 0 0 #000;
-  color: #737373;
+  padding: 5px 0px 5px 0px;
+  color: #8f8f8f;
 }
 
 .bg-image {
@@ -731,7 +732,7 @@ a:hover {
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out;
-  padding: 2em;
+
   margin: 2em;
 }
 

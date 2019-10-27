@@ -17,7 +17,7 @@ class Floatingfeaturedblocks extends React.Component {
       <div
         className="site-section pt-0 feature-blocks-1 feature-block-1"
       >
-        <div className="container-fluid">
+        <div className="container">
           <div className="row">
             <Featuredblockleft />
             <Featuredblockcenter />

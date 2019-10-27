@@ -2,10 +2,9 @@ import React from 'react'
 import Layout from '../components/layout'
 import Photoslidertop from '../components/wt/photoslidertop'
 import Floatingfeaturedblocks from '../components/wt/floatingfeaturedblocks'
-//import Nextmatchcountdown from '../components/wt/nextmatchcountdown'
 import Upcomingmatchbgpicturetop from '../components/wt/upcomingmatchbgpicturetop'
-import Previouslatestmatches from '../components/wt/previouslatestmatches'
-import Upcomingmatchesall from '../components/wt/upcomingmatchesall'
+import Standings from '../components/standings'
+import Previousmatch from '../components/wt/previousmatch'
 import Watchlive from '../components/watchlive'
 
 const Index = () => (
@@ -13,8 +12,9 @@ const Index = () => (
         <Photoslidertop />
         <Floatingfeaturedblocks />
         <Watchlive />
+        <Standings />
         <Upcomingmatchbgpicturetop />
-        <Previouslatestmatches />
+        <Previousmatch />
     </Layout>
 )
 

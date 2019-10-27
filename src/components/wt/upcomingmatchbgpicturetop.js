@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import Wtlogo from '../../images/whitetigerslogo-139x150.png'
 import Sdifc from '../../images/sd-international-fc.png'
 
@@ -38,6 +37,9 @@ class Upcomingmatchbgpicturetop extends React.Component {
             </div>
           </div>
           <div className="col-md-12 col-lg-4 text-center mb-4 mb-lg-0">
+          <h2 className="h2 text-center text-black text-uppercase font-weight-bold mb-3">
+        Next Match
+      </h2>
             <div className="d-inline-block">
               <p className="mb-2">
                 <small className="text-uppercase text-black font-weight-bold">

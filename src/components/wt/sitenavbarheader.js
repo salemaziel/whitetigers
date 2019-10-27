@@ -1,28 +1,13 @@
 import React from "react";
+import '../../css/bootstrap-grid.css';
+import '../../css/bootstrap-reboot.css';
+import '../../css/bootstrap.min.css';
+import '../../css/style.css';
+import Upsllogo from '../../images/upsl-logo.png';
+import Wtlogo from '../../images/whitetigerslogo-139x150.png';
 import Socialbuttons from "./socialbuttons";
-import Sitemobilemenu from './sitemobilemenu'
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
-} from 'reactstrap';
-import { Link } from 'gatsby'
 
-import '../../css/style.css'
-import '../../css/bootstrap-grid.css'
-import '../../css/bootstrap-reboot.css'
-import '../../css/bootstrap.min.css'
 
-import Wtlogo from '../../images/whitetigerslogo-139x150.png'
-import Upsllogo from '../../images/upsl-logo.png'
 
 class Sitenavbarheader extends React.Component {
   render() {
@@ -39,20 +24,24 @@ class Sitenavbarheader extends React.Component {
                     href="#"
                     className="text-secondary p-2 d-flex align-items-center"
                   >
-                    <span className="d-none d-md-block">
-                      {" "}
-                      UPSL - WESTERN CONFERENCE - SOCAL SOUTH - DIVISION I
-                    </span>
+                    {/**<span className="d-none d-md-block">**/}
+                      
+                      WESTERN CONFERENCE - SO CAL SOUTH - DIVISION I
+                    {/**</span>**/}
                   </a>
                 </div>
                 <div className="d-inline-block">
                   <a
-                    href="#"
+                    href="https://upsl.com"
                     className="text-secondary p-2 d-flex align-items-center"
                   >
-                    <span className="d-none d-md-block">
-                      <img src={Upsllogo} alt />
-                    </span>
+                    {/**<span className="d-none d-md-block">**/}
+                      <img src={Upsllogo} alt="" 
+                      style={{
+                        display: 'inline',
+                        inlineSize: 'auto',
+                      }} />
+                    {/**</span>**/}
                   </a>
                 </div>
               </div>
@@ -95,9 +84,17 @@ class Sitenavbarheader extends React.Component {
                     <a href="#">Menu Three</a>
                   </li>
                 </ul>
-    </li>**/}
-              <li>
-                <a href="/matches">Matches</a>
+            </li>**/}
+              <li className="has-children">
+                <a href="#">Matches</a>
+                <ul className="dropdown arrow-top">
+                  <li>
+                    <a href="/previousmatches">Previous Matches</a>
+                  </li>
+                  <li>
+                    <a href="/upcomingmatches">Upcoming Matches</a>
+                  </li>
+                </ul>
               </li>
               <li>
                 <a href="/team">Team</a>

@@ -5,12 +5,11 @@ import Upcomingmatchesall from '../components/wt/upcomingmatchesall'
 
 
 
-const Matches = () => (
+const Upcomingmatches = () => (
     <Layout>
         <Upcomingmatchesall />
-
     </Layout>
 
 )
 
-export default Matches
+export default Upcomingmatches
