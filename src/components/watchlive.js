@@ -4,7 +4,7 @@ import React from 'react'
 import '../css/style.css'
 import '../css/bootstrap-grid.css'
 import '../css/bootstrap-reboot.css'
-import '../css/bootstrap.min.css'
+//import '../css/bootstrap.min.css'
 
 
 class Watchlive extends React.Component {

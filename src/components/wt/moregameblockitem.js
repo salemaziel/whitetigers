@@ -7,7 +7,7 @@ class moregameblockitem extends React.Component {
         {}
         <div className="block-12">
           <figure>
-            <img src="images/img_1.jpg" alt="Image" className="img-fluid" />
+            <img src="images/img_1.jpg" alt="" className="img-fluid" />
           </figure>
           <div className="text">
             <span className="meta">May 20th 2018</span>

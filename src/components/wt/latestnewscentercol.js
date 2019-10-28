@@ -6,7 +6,7 @@ class latestnewscentercol extends React.Component {
       <div className="col-md-6 col-lg-4">
         <div className="post-entry">
           <div className="image">
-            <img src="images/img_2.jpg" alt="Image" className="img-fluid" />
+            <img src="images/img_2.jpg" alt="" className="img-fluid" />
           </div>
           <div className="text p-4">
             <h2 className="h5 text-black">

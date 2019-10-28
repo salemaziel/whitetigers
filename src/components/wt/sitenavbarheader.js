@@ -100,9 +100,9 @@ class Sitenavbarheader extends React.Component {
               <li>
                 <a href="/team">Team</a>
               </li>
-              <li>
+              {/**<li>
                 <a href="/about">About</a>
-              </li>
+              </li>**/}
               <li>
                 <a href="/contact">Contact</a>
               </li>

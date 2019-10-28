@@ -19,7 +19,7 @@ class Nextmatch extends React.Component {
           <div className="d-block d-md-inline-block mb-3 mb-lg-0">
             <img
               src={Wtlogo}
-              alt="Image"
+              alt=""
               className="mr-3 image"
             />
             <span className="d-block d-md-inline-block ml-0 ml-md-3 ml-lg-0">
@@ -32,7 +32,7 @@ class Nextmatch extends React.Component {
           <div className="d-block d-md-inline-block">
             <img
               src={Sdppa}
-              alt="Image"
+              alt=""
               className="mr-3 image"
             />
             <span className="d-block d-md-inline-block ml-0 ml-md-3 ml-lg-0">

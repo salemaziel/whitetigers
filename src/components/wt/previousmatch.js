@@ -41,7 +41,7 @@ class Previousmatch extends React.Component {
                 <div className="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
                   <img
                     src={Wtlogo}
-                    alt="Image"
+                    alt=""
                     className="img-fluid"
                   />
                 </div>
@@ -74,7 +74,7 @@ class Previousmatch extends React.Component {
                 <div className="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
                     src={Santosfc}
-                    alt="Image"
+                    alt=""
                     className="img-fluid"
                   />
                 </div>

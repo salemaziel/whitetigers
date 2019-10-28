@@ -119,7 +119,7 @@ closeNav = () => {
         
           {/**<div className="site-mobile-menu-logo">
             <a href="/">
-              <img src={Wtlogo} alt="Image" />
+              <img src={Wtlogo} alt="" />
             </a>
           </div>
           <div className="site-mobile-menu-close mt-3">

@@ -10,7 +10,7 @@ import Pscsd from '../../images/psc-sandiego.png'
 
 import '../../css/style.css'
 import '../../css/bootstrap-grid.css'
-//import '../../css/bootstrap-reboot.css'
+import '../../css/bootstrap-reboot.css'
 import '../../css/bootstrap.min.css'
 import '../../css/jquery-ui.css'
 
@@ -27,7 +27,7 @@ class Upcomingmatchbgpicturetop extends React.Component {
                 <div className="image mx-auto mb-3 mb-lg-0 mr-lg-3">
                   <img
                     src={Sdppa}
-                    alt="Image"
+                    alt=""
                     className="img-fluid"
                   />
                 </div>
@@ -68,7 +68,7 @@ class Upcomingmatchbgpicturetop extends React.Component {
                 <div className="image mx-auto ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
                     src={Wtlogo}
-                    alt="Image"
+                    alt=""
                     className="img-fluid"
                   />
                 </div>
