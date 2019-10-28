@@ -16,27 +16,25 @@ import '../../css/jquery-ui.css'
 class Aboutmatchhighlightscenterblock extends React.Component {
   render() {
     return (
-      <div className="col-md-6 col-lg-4" data-aos="fade" data-aos-delay={200}>
+      <div className="col-md-6 col-lg-4" >
         <div
           className="p-3 p-md-5 feature-block-1 mb-5 mb-lg-0 bg"
-          style={{
-            backgroundImage: 'url("images/img_2.jpg")'
-          }}
+         
         >
-          <div className="text">
-            <h2 className="h5 text-white">Russia's World Cup Championship</h2>
-            <p>
+          <div className="text" style={{display: 'inline-block', height: '150px',}}>
+            {/**<h2 className="h5 text-white">Russia's World Cup Championship</h2>**/}
+            {/**<p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
               repellat autem illum nostrum sit distinctio!
-            </p>
-            <p className="mb-0">
+            </p>**/}
+            {/**<p className="mb-0">
               <a
                 href="#"
                 className="btn btn-primary btn-sm px-4 py-2 rounded-0"
               >
                 Read More
               </a>
-            </p>
+            </p>**/}
           </div>
         </div>
       </div>

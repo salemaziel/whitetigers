@@ -15,15 +15,12 @@ class Aboutusherotext extends React.Component {
   render() {
     return (
       <div
-        className="col-md-6 text-center text-md-left"
-        data-aos="fade-up"
-        data-aos-delay={400}
+        className="col-md-10 text-center text-md-left"
       >
-        <h1 className="bg-text-line">About Us</h1>
+        <h1 className="bg-text-line">About <br>
+        </br> White Tigers FC</h1>
         <p className="mt-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maxime
-          velit nostrum praesentium voluptatem. Mollitia perferendis dolore
-          dolores.
+        Founded in 2019, White Tigers Futbol Club is an American Soccer club currently based in Escondido, California.
         </p>
       </div>
     );

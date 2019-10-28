@@ -1,7 +1,6 @@
 import React from "react";
-//import Footerquickmenu from "./footerquickmenu";
+import Footerquickmenu from "./footerquickmenu";
 import Footersocialbuttonsfollow from "./footersocialbuttonsfollow";
-import Footervideosubscribe from "./footervideosubscribe";
 
 import '../../css/style.css'
 import '../../css/bootstrap-grid.css'
@@ -81,7 +80,7 @@ class Foot extends React.Component {
               </div>**/}
             </div>
             <div className="col-lg-4 mb-5 mb-lg-0">
-              {/**<Footerquickmenu />**/}
+              <Footerquickmenu />
             </div>
             {/**<Footervideosubscribe />**/}
             <Footersocialbuttonsfollow />

@@ -17,9 +17,11 @@ const Standings = (props) => {
                 fontSize: '45px',
                 textAlign: 'center',
                 textTransform: 'uppercase',
+                color: 'black',
             }}>
             Standings
         </h3>
+        <p>Last updated Thursday, October 24</p>
       <Table dark striped hover responsive >
         <thead>
           <tr style={{

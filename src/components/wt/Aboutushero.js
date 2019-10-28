@@ -11,20 +11,27 @@ import '../../css/aos.css'
 //import '../../css/owl.carousel.min.css'
 import '../../css/jquery-ui.css'
 
+
+
 class Aboutushero extends React.Component {
   render() {
     return (
-      <div
-        className="site-blocks-cover overlay"
-        style={{
-          backgroundImage: "url(images/hero_bg_3.jpg)"
-        }}
-        data-aos="fade"
-        data-stellar-background-ratio="0.5"
-      >
-        <div className="container">
-          <div className="row align-items-center justify-content-start">
-            <Aboutusherotext></Aboutusherotext>
+      <div className="bghero">
+        <div
+          className="site-blocks-cover overlay"
+        >
+          <div className="container">
+            <div className="row align-items-center justify-content-start">
+              <div
+                className="col-md-6 text-center text-md-left"
+              >
+                
+                
+                
+                {}
+                <Aboutusherotext />
+              </div>
+            </div>
           </div>
         </div>
       </div>

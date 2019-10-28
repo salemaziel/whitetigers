@@ -10,7 +10,6 @@ import '../../css/aos.css'
 //import '../../css/owl.carousel.min.css'
 import '../../css/jquery-ui.css'
 
-import Teamherobg from '../../images/hero_bg_3.jpg'
 
 
 class Teamhero extends React.Component {

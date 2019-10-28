@@ -15,18 +15,17 @@ class Featuredblockcenter extends React.Component {
           className="p-3 p-md-5 feature-block-1 mb-5 mb-lg-0 bg"
         >
           <div className="text">
-            <h2 className="h5 text-white">White Tigers FC</h2>
+            
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-              repellat autem illum nostrum sit distinctio!
+              The White Tigers absolutely destroyed PSC San Diego 10 to 1 at Monte Vista High School on Sunday, October 13
             </p>
             <p className="mb-0">
-              <a
+              {/**<a
                 href="#"
                 className="btn btn-primary btn-sm px-4 py-2 rounded-0"
               >
                 Read More
-              </a>
+              </a>**/}
             </p>
           </div>
         </div>
