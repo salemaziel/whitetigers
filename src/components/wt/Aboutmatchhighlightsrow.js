@@ -11,7 +11,7 @@ import '../../css/bootstrap-reboot.css'
 import '../../css/aos.css'
 //import '../../css/owl.theme.default.min.css'
 //import '../../css/owl.carousel.min.css'
-import '../../css/jquery-ui.css'
+
 
 class Aboutmatchhighlightsrow extends React.Component {
   render() {

@@ -8,7 +8,7 @@ import '../../css/bootstrap-reboot.css'
 import '../../css/aos.css'
 //import '../../css/owl.theme.default.min.css'
 //import '../../css/owl.carousel.min.css'
-import '../../css/jquery-ui.css'
+
 
 import CGuillen from '../../images/f-CGuillen.jpg'
 import JHernandez from '../../images/f-JHernandez.jpg'
@@ -33,7 +33,7 @@ class Teamrowf1 extends React.Component {
             <img
               src={CGuillen}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Christopher Guillén</h2>
             <span className="position">Forward</span>
@@ -45,7 +45,7 @@ class Teamrowf1 extends React.Component {
             <img
               src={JHernandez}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Josué Hernandez</h2>
             <span className="position">Forward</span>
@@ -57,7 +57,7 @@ class Teamrowf1 extends React.Component {
             <img
               src={JMazariegos}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Jose Mazariegos</h2>
             <span className="position">Forward</span>
@@ -69,7 +69,7 @@ class Teamrowf1 extends React.Component {
             <img
               src={MLopez}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Michael Lopez</h2>
             <span className="position">Forward</span>
@@ -81,7 +81,7 @@ class Teamrowf1 extends React.Component {
             <img
               src={VLopez}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Victor Lopez</h2>
             <span className="position">Forward</span>

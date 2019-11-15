@@ -13,7 +13,7 @@ import '../../css/bootstrap-reboot.css'
 import '../../css/aos.css'
 //import '../../css/owl.theme.default.min.css'
 //import '../../css/owl.carousel.min.css'
-import '../../css/jquery-ui.css'
+
 
 import Team2 from '../../images/teamphoto2.jpg'
 

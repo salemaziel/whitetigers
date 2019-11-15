@@ -5,8 +5,7 @@ import '../../css/style.css'
 import '../../css/bootstrap-grid.css'
 import '../../css/bootstrap-reboot.css'
 import '../../css/bootstrap.min.css'
-//import '../../scss/style.scss'
-import '../../css/jquery-ui.css'
+
 
 import Wtlogo from '../../images/whitetigerslogo-139x150.png'
 import Sdifc from '../../images/sd-international-fc.png'
@@ -58,13 +57,13 @@ class Previousmatch extends React.Component {
           <div className="col-md-4 col-lg-4 text-center mb-4 mb-lg-0">
             <div className="d-inline-block">
               <h6 className="h6 mb-0 text-black text-center text-uppercase">
-                Oct 20 / 4:00 PM
+                Nov 11 / 4:00 PM
                 <br />
                 Ramona High School
               </h6>
               <br />
               <div className="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded">
-                <span className="h5">4:1</span>
+                <span className="h5">3:0</span>
               </div>
             </div>
           </div>
@@ -73,13 +72,13 @@ class Previousmatch extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
-                    src={Santosfc}
+                    src={Rebels}
                     alt=""
                     className="img-fluid"
                   />
                 </div>
                 <div className="text order-1 w-100">
-                  <h3 className="h5 mb-0 text-black">Santos FC</h3>
+                  <h3 className="h5 mb-0 text-black">Rebels SC</h3>
                   <span className="text-uppercase small country">
                     San Diego
                   </span>

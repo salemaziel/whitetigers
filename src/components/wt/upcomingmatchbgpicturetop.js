@@ -12,7 +12,7 @@ import '../../css/style.css'
 import '../../css/bootstrap-grid.css'
 import '../../css/bootstrap-reboot.css'
 import '../../css/bootstrap.min.css'
-import '../../css/jquery-ui.css'
+
 
 class Upcomingmatchbgpicturetop extends React.Component {
   render() {
@@ -26,13 +26,13 @@ class Upcomingmatchbgpicturetop extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image mx-auto mb-3 mb-lg-0 mr-lg-3">
                   <img
-                    src={Sdppa}
+                    src={Wtlogo}
                     alt=""
                     className="img-fluid"
                   />
                 </div>
                 <div className="text">
-                  <h3 className="h5 mb-0 text-black">SD Premier Pros Academy</h3>
+                  <h3 className="h5 mb-0 text-black">White Tigers FC</h3>
                   <span className="text-uppercase small country text-black">
                     San Diego
                   </span>
@@ -55,9 +55,9 @@ class Upcomingmatchbgpicturetop extends React.Component {
               </div>
               <p className="mb-0">
                 <small className="text-uppercase text-black font-weight-bold">
-                  26 October / 7:00 PM PST
+                  24 November / 4:00 PM PST
                   <br />
-                  Morse High School
+                  Ramona High School
                 </small>
               </p>
             </div>
@@ -67,13 +67,13 @@ class Upcomingmatchbgpicturetop extends React.Component {
               <div className="d-block d-lg-flex align-items-center">
                 <div className="image mx-auto ml-lg-3 mb-3 mb-lg-0 order-2">
                   <img
-                    src={Wtlogo}
+                    src={Sdppa}
                     alt=""
                     className="img-fluid"
                   />
                 </div>
                 <div className="text order-1">
-                  <h3 className="h5 mb-0 text-black">White Tigers FC</h3>
+                  <h3 className="h5 mb-0 text-black">SD Premier Pros Academy</h3>
                   <span className="text-uppercase small country text-black">
                     San Diego
                   </span>

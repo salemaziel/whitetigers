@@ -8,7 +8,7 @@ import '../../css/bootstrap-reboot.css'
 import '../../css/aos.css'
 //import '../../css/owl.theme.default.min.css'
 //import '../../css/owl.carousel.min.css'
-import '../../css/jquery-ui.css'
+
 
 import SungHyun from '../../images/O-SHYooLopez1.jpg'
 import JPina from '../../images/c-JPina.jpg'

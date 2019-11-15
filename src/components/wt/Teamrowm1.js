@@ -8,7 +8,7 @@ import '../../css/bootstrap-reboot.css'
 import '../../css/aos.css'
 //import '../../css/owl.theme.default.min.css'
 //import '../../css/owl.carousel.min.css'
-import '../../css/jquery-ui.css'
+
 
 import GMartinez from '../../images/m-GMartinez.jpg'
 import IMendoza from '../../images/m-IMendoza.jpg'
@@ -41,7 +41,7 @@ class Teamrowm1 extends React.Component {
             <img
               src={GMartinez}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Gustavo Martinez</h2>
             <span className="position">Midfield</span>
@@ -53,7 +53,7 @@ class Teamrowm1 extends React.Component {
             <img
               src={IMendoza}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Iván Mendoza</h2>
             <span className="position">Midfield</span>
@@ -65,7 +65,7 @@ class Teamrowm1 extends React.Component {
             <img
               src={JHernandez}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Joseph Hernandez</h2>
             <span className="position">Midfield</span>
@@ -77,7 +77,7 @@ class Teamrowm1 extends React.Component {
             <img
               src={JLFuentes}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>José Luis Fuentes</h2>
             <span className="position">Midfield</span>
@@ -89,7 +89,7 @@ class Teamrowm1 extends React.Component {
             <img
               src={JVelazquez}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Jorge Velázquez</h2>
             <span className="position">Midfield</span>
@@ -101,7 +101,7 @@ class Teamrowm1 extends React.Component {
             <img
               src={J2Velazquez}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Juan Velázquez</h2>
             <span className="position">Midfield</span>
@@ -113,7 +113,7 @@ class Teamrowm1 extends React.Component {
             <img
               src={RCruz}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Rodrigo Cruz</h2>
             <span className="position">Midfield</span>

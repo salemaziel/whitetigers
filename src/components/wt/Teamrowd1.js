@@ -8,7 +8,7 @@ import '../../css/bootstrap-reboot.css'
 import '../../css/aos.css'
 //import '../../css/owl.theme.default.min.css'
 //import '../../css/owl.carousel.min.css'
-import '../../css/jquery-ui.css'
+
 
 import AGarcia from '../../images/d-AGarcia.jpg'
 import BBahena from '../../images/d-BBahena.jpg'
@@ -39,7 +39,7 @@ class Teamrowd1 extends React.Component {
             <img
               src={AGarcia}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Artemio Garcia</h2>
             <span className="position">Defender</span>
@@ -51,7 +51,7 @@ class Teamrowd1 extends React.Component {
             <img
               src={BBahena}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Bryan Bahena</h2>
             <span className="position">Defender</span>
@@ -63,7 +63,7 @@ class Teamrowd1 extends React.Component {
             <img
               src={DLinares}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>David Linares</h2>
             <span className="position">Defender</span>
@@ -75,7 +75,7 @@ class Teamrowd1 extends React.Component {
             <img
               src={EChavarria}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Esteban Chavarría</h2>
             <span className="position">Defender</span>
@@ -87,7 +87,7 @@ class Teamrowd1 extends React.Component {
             <img
               src={JGonzalez}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Jose González</h2>
             <span className="position">Defender</span>
@@ -99,7 +99,7 @@ class Teamrowd1 extends React.Component {
             <img
               src={JMondragon}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Jose Mondragón</h2>
             <span className="position">Defender</span>
@@ -111,7 +111,7 @@ class Teamrowd1 extends React.Component {
             <img
               src={KBarba}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Kevin Barba</h2>
             <span className="position">Defender</span>
@@ -123,7 +123,7 @@ class Teamrowd1 extends React.Component {
             <img
               src={KCortez}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Kevin Cortez</h2>
             <span className="position">Defender</span>
@@ -135,7 +135,7 @@ class Teamrowd1 extends React.Component {
             <img
               src={MRomero}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Marcos Romero</h2>
             <span className="position">Defender</span>

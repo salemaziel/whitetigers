@@ -8,7 +8,7 @@ import '../../css/style.css'
 import '../../css/bootstrap-grid.css'
 import '../../css/bootstrap-reboot.css'
 import '../../css/bootstrap.min.css'
-import '../../css/jquery-ui.css'
+
 
 
 class Nextmatch extends React.Component {
@@ -36,7 +36,7 @@ class Nextmatch extends React.Component {
               className="mr-3 image"
             />
             <span className="d-block d-md-inline-block ml-0 ml-md-3 ml-lg-0">
-              SD Premier Pros Academy
+              SD Premier Pros Soccer Club
             </span>
           </div>
         </div>

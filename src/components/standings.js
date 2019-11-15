@@ -21,7 +21,7 @@ const Standings = (props) => {
             }}>
             Standings
         </h3>
-        <p>Last updated Thursday, October 24</p>
+        <p>Last updated Thursday, November 14</p>
       <Table dark striped hover responsive >
         <thead>
           <tr style={{
@@ -50,58 +50,58 @@ const Standings = (props) => {
                 fontWeight: 'bold',
             }}
             >San Diego White Tigers FC</td>
-            <td>6</td>
+            <td>8</td>
+            <td>1</td>
             <td>0</td>
-            <td>0</td>
-            <td>18</td>
+            <td>25</td>
           </tr>
           <tr>
             <th scope="row">2</th>
             <td>SD Internacional FC</td>
-            <td>4</td>
-            <td>1</td>
-            <td>1</td>
-            <td>13</td>
+            <td>5</td>
+            <td>2</td>
+            <td>2</td>
+            <td>17</td>
           </tr>
           <tr>
             <th scope="row">3</th>
             <td>Santos FC</td>
-            <td>3</td>
+            <td>5</td>
             <td>1</td>
             <td>2</td>
-            <td>10</td>
+            <td>16</td>
           </tr>
           <tr>
             <th scope="row">4</th>
             <td>SD Premier Pros Academy</td>
-            <td>2</td>
-            <td>1</td>
             <td>3</td>
-            <td>7</td>
+            <td>3</td>
+            <td>3</td>
+            <td>12</td>
           </tr>
           <tr>
             <th scope="row">5</th>
-            <td>SD Premier Soccer Club</td>
+            <td>Rebels SC</td>
             <td>2</td>
             <td>1</td>
-            <td>3</td>
+            <td>5</td>
             <td>7</td>
           </tr>
           <tr>
             <th scope="row">6</th>
-            <td>Rebels SC</td>
+            <td>SD Premier Soccer Club</td>
             <td>2</td>
-            <td>0</td>
-            <td>4</td>
+            <td>1</td>
             <td>6</td>
-          </tr>
+            <td>7</td>
+          </tr> 
           <tr>
             <th scope="row">7</th>
             <td>PSC San Diego</td>
             <td>0</td>
-            <td>0</td>
-            <td>6</td>
-            <td>0</td>
+            <td>1</td>
+            <td>7</td>
+            <td>1</td>
           </tr>
         </tbody>
       </Table>

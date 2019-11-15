@@ -6,12 +6,14 @@ import Upcomingmatchbgpicturetop from '../components/wt/upcomingmatchbgpictureto
 import Standings from '../components/standings'
 import Previousmatch from '../components/wt/previousmatch'
 import Watchlive from '../components/watchlive'
+import Schedroster from '../components/schedroster'
 
 
 const Index = () => (
     <Layout>
         <Photoslidertop />
         <Floatingfeaturedblocks />
+        <Schedroster />
         <Standings />
         <Upcomingmatchbgpicturetop />
         <Previousmatch />

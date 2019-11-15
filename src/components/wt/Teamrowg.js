@@ -8,7 +8,7 @@ import '../../css/bootstrap.min.css'
 import '../../css/aos.css'
 //import '../../css/owl.theme.default.min.css'
 //import '../../css/owl.carousel.min.css'
-import '../../css/jquery-ui.css'
+
 
 import AGarcia from '../../images/g-AGarcia.jpg'
 import CHernandez from '../../images/g-CHernandez.jpg'
@@ -36,7 +36,7 @@ class Teamrowg extends React.Component {
             <img
               src={AGarcia}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Alex García</h2>
             <span className="position">GoalKeeper</span>
@@ -48,7 +48,7 @@ class Teamrowg extends React.Component {
             <img
               src={CHernandez}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Carlos Hernandez</h2>
             <span className="position">GoalKeeper</span>
@@ -60,7 +60,7 @@ class Teamrowg extends React.Component {
             <img
               src={IdePaz}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Irving de Paz</h2>
             <span className="position">GoalKeeper</span>
@@ -72,7 +72,7 @@ class Teamrowg extends React.Component {
             <img
               src={LCervantes}
               alt=""
-              className="img-fluid image rounded-circle"
+              className="getbig img-fluid image rounded-circle"
             />
             <h2>Lenny Islas Cervantes</h2>
             <span className="position">GoalKeeper</span>

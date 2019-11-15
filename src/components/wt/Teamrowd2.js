@@ -8,7 +8,7 @@ import '../../css/bootstrap.min.css'
 import '../../css/aos.css'
 //import '../../css/owl.theme.default.min.css'
 //import '../../css/owl.carousel.min.css'
-import '../../css/jquery-ui.css'
+
 
 import JGonzalez from '../../images/d-JGonzalez.jpg'
 import JMondragon from '../../images/d-JMondragon.jpg'
