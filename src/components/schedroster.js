@@ -11,33 +11,48 @@ import '../css/bootstrap-reboot.css'
 const Schedroster = (props) => {
     return (
         <div className="container" style={{
+            display: 'flex',
             marginBottom: '4em',
+            justifyContent: 'center',
+            alignContent: 'center',
+            textAlign: 'center',
+
         }}>
-            <Row>
-                <Col xs="6" 
-                    style={{
-                        justifyContent: 'right',
-                        textAlign: 'right',
-                     }}>
+            <Row style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignContent: 'center',
+            }}>
+               
+                <Col
+                style={{
+                    justifyContent: 'center',
+
+                 }}>
                     <Button prefetch href="/upcomingmatches"
                         style={{
-                            padding: '2em 3em',
+                            padding: '1.5em 2.5em',
                             fontWeight: '900',
-                            fontSize: '1.2em',
-                        }}>View Schedule</Button>
+                            position: 'relative',
+                            margin: '2px',
+                        }}>View Team<br />Schedule
+                    </Button>
                 </Col>
-                <Col xs="6"
-                style={{
-                    justifyContent: 'left',
-                    textAlign: 'left',
+                <Col style={{
+                    justifyContent: 'center',
+
                  }}>
                     <Button prefetch href="/team"
-                    style={{
-                        padding: '2em 3em',
-                        fontWeight: '900',
-                        fontSize: '1.2em',
-                    }}>View Roster</Button>
+                        style={{
+                            padding: '1.5em 2.5em',
+                            fontWeight: '900',
+                            position: 'relative',
+                            margin: '2px'
+                    }}>View Team<br /> Roster
+                    </Button>
                 </Col>
+                
+                
             </Row>        
         </div>
         
